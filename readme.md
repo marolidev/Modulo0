@@ -41,27 +41,22 @@ git commit -m "Primer mensaje"
 ```
 ### Sube los cambios al repositorio en GitHub.
 ```
-git push --set-upstream origin master
+git push
+```
+## 5. Hacer un merge
+
+### Vuelve a la rama "main".
+```
+git checkout master
 ```
 
-## 4. Crear una rama
+### Haz un merge de la rama "development" a la rama "main".
+```
+git merge development
+```
+Si no hay conflictos, los cambios realizados en la rama "development" se incorporarán a la rama "main".
 
-### Crea una rama nueva llamada "development".
+Hax un push de los cambios al repositorio en GitHub.
 ```
-git branch development
+git push
 ```
-
-Cambia a la nueva rama.
-```
-git checkout development
-```
-
-Realiza algunos cambios en el archivo que creaste.
-Añade y haz un commit con los cambios en la rama "development".
-
-```
-git add .
-git commit -m "Nuevos cambios"
-
-```
-Sube los cambios a Github.
