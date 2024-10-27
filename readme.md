@@ -40,3 +40,28 @@ git commit -m "Primer mensaje"
  create mode 100644 readme.md
 ```
 ### Sube los cambios al repositorio en GitHub.
+```
+git push --set-upstream origin master
+```
+
+## 4. Crear una rama
+
+### Crea una rama nueva llamada "development".
+```
+git branch development
+```
+
+Cambia a la nueva rama.
+```
+git checkout development
+```
+
+Realiza algunos cambios en el archivo que creaste.
+Añade y haz un commit con los cambios en la rama "development".
+
+```
+git add .
+git commit -m "Nuevos cambios"
+
+```
+Sube los cambios a Github.
